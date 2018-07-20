@@ -8,6 +8,8 @@
 using namespace std;
 
 int indexTable[2];
+// n signifies the total number of elements that we are considering for depicting 
+// cuckoo hashing
 int n = 10;
 
 // function declaring hash functions that we use to calculate 2 location choices for keys
